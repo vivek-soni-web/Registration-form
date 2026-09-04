@@ -240,16 +240,8 @@
       flex: 1;
       height: 42px;
       border-radius: 5px;
-      border: 1px solid rgba(100, 170, 230, 0.35);
       background: rgba(30, 65, 110, 0.5);
       color: white;
-      cursor: pointer;
-      font-size: 11px;
-    }
-
-    .gender button.active {
-      background: #2c8ed4;
-      border-color: #59c1ff;
     }
 
     .domains-select {
@@ -275,8 +267,7 @@
     }
 
     .domain-buttons button:hover,
-    .domain-buttons button.active {
-      background: rgba(45, 147, 221, 0.5);
+    .domain-buttons {
       border-color: #5bbcff;
     }
 
